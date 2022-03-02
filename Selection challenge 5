@@ -1,0 +1,14 @@
+
+raining = input('Is it raining? y/n ')
+if raining == 'y':
+    print('Its raining!')
+if raining == "n":
+    print("have a nice day")
+umbrella = input('Do you have an umbrella? y/n ')
+if umbrella == 'n':
+        print("wait for rain to stop")
+
+
+windy = input("is it windy? y/n ")
+if windy == "y"
+    print("wait for the wind to stop")
