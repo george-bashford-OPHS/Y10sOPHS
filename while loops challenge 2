@@ -1,0 +1,11 @@
+import sys
+
+number = 0
+
+while number < 5:
+    total = int(input("Enter a number >>>"))
+    if total > 5:
+        print("The last number you entered was a", total)
+        if total > 5:
+            print("")
+            exit(sys)
