@@ -1,0 +1,5 @@
+price = [10.99, 9.99, 3.99, 20]
+for item in price:
+    percent = item * 0.50
+    newPrice = item - percent
+    print (newPrice)
