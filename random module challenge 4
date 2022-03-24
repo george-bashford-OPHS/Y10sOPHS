@@ -1,0 +1,16 @@
+guess = int(input('pick a number from 1 to 5 >'))
+if guess == num:
+    print('Well done')
+else:
+    if guess > num:
+        print('too high')
+        SecondGuess = int(input('try again >'))
+
+    else:
+        print('too low')
+        SecondGuess = int(input('try again >'))
+
+if SecondGuess == num:
+    print('you win')
+else:
+    print ('you lose')
