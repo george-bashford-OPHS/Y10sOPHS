@@ -1,0 +1,11 @@
+import random
+
+coin = ["heads","tails"]
+selected = random.choice(coin)
+coinguess = str(input("enter a coin face>>"))
+
+if coinguess == selected :
+    print("well done")
+else:
+    print("try again")
+                
