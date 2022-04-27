@@ -1,0 +1,7 @@
+cars=[]
+A = True
+while A == True:
+   abc = str(input("enter a car brand or press x to exit"))
+   if abc = ("x")
+   print("exiting")
+   
