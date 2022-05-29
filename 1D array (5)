@@ -1,0 +1,9 @@
+food = []
+for y in range(4):
+    newf = str(input("Enter a food > "))
+    food.append(newf)
+print(food)
+location = int(input("Which food do you want to delete 1-4 ? "))
+location = location - 1
+del food[location]
+print(food)
