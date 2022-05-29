@@ -1,0 +1,9 @@
+TV_Titles = ["Breaking bad","naruto","DBZ","Beserk"]
+for y in TV_Titles:
+    print(y)
+NShow = str(input("Enter another TV show >>> "))
+position = int(input("Enter the position at which you want to put it in 1-5 >>> "))
+position = position - 1
+
+TV_Titles.insert(position, NShow)
+print(TV_Titles)
