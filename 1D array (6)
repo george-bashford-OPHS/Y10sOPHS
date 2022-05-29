@@ -1,0 +1,17 @@
+nums = []
+number = int(input("Enter a num "))
+nums.append(number)
+while len(nums) < 3:
+    number = int(input("Enter a num "))
+    nums.append(number)
+
+guts = True
+while guts == True:
+    choice = str(input("Do you want to keep the last number? yes or no > "))
+    if choice == "yes":
+        print(nums)
+        guts = False
+    if choice == "no":
+        del nums[2]
+        print(nums)
+        guts = False
