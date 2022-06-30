@@ -1,0 +1,4 @@
+f = open("number.txt","w")
+userlines = input(" say 5 numbers , seperating them with a comma > ")
+f.write(userlines)
+f.close()
