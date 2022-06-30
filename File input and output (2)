@@ -1,0 +1,5 @@
+f = open("names.txt","w")
+userlines = ("\na , \nb , \nc , \nd , \ne")
+f.write(userlines)
+print("\n go and open the text file")
+f.close()
