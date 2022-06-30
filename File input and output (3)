@@ -1,0 +1,3 @@
+f = open("names.txt" , "r" )
+contents = f.read()
+print(contents)
