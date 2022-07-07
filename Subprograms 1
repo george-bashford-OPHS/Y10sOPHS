@@ -1,0 +1,19 @@
+def careermode():
+    print("career mode")
+
+careermode()
+
+def tournamentmode():
+    print("tournament mode")
+
+tournamentmode()
+
+def onlinemode():
+    print("online mode")
+
+onlinemode()
+
+def menu():
+    print("select one")
+
+menu()
