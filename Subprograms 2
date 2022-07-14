@@ -1,0 +1,13 @@
+def menu():
+    print("1-DOMINTION")
+    print("2-TEAM DEATHMATCH")
+    print("3-HEADQUARTERS")
+    userinput = int(input("What would you like to play? "))
+    if userinput == 1:
+        print("DOMINATION NOW SEARCHING")
+    elif userinput == 2 :
+        print("TEAM DEATHMATCH NOW SEARCHING")
+    elif userinput == 3 :
+        print("HEADQUARTERS NOW SEARCHING")
+
+menu()
