@@ -1,0 +1,9 @@
+name =input("whos birthday is it > ")
+
+def happybirthday():
+    print("Happy birthday to you")
+    print("Happy birthday to you")
+    print("Happy birthdat to ",name,)
+    print("Happu birtsay to you!")
+
+happybirthday()
