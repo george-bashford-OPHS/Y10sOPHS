@@ -1,0 +1,16 @@
+def menu():
+    print("press 1 for 1-player")
+    print("press 1 for 2-player")
+    print("press 3 for online")
+    print("press 4 for exit")
+    userinput = int(input("What would you like to do? "))
+    if userinput == 1:
+        print("1-player selected")
+    elif userinput == 2 :
+        print("2-player selected")
+    elif userinput == 3 :
+        print("online selected")
+    elif userinput == 4 :
+        print("exiting...")
+
+menu()
