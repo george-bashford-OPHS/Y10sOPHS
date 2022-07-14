@@ -1,0 +1,8 @@
+radius = int(input("enter your radius value . "))
+
+def area():
+    print(3.14 * radius," is your area ")
+def circumference():
+    print(2 * 3.14 * radius,"is your circumference")
+area()
+circumference()
