@@ -1,0 +1,45 @@
+def player1game():
+    print(" think big")
+
+def player2game():
+    print(" think bigger ")
+
+def player3game():
+    print(" winner ")
+
+def player4game():
+    print(" winning")
+
+def exit():
+    print("bye bye")
+
+def menu() :
+    print("press 1 for think big")
+    print("press 2 for think bigger")
+    print("press 3 for winning")
+    print("press 4 for winner")
+    print("press 5 for exit")
+
+    userinput = int(input("enter 1 , 2 , 3 , 4 or 5  "))
+
+    if userinput == 1:
+        player1game()
+    elif userinput == 2:
+        player2game()
+    elif userinput == 3 :
+        player3game()
+    elif userinput == 4 :
+        player4game()
+    elif userinput == 5 :
+        exit()
+    else:
+         print("")
+         print("")
+         print("")
+         print("input invalid")
+         print("")
+         print("")
+         print("")
+         menu()
+
+menu()
