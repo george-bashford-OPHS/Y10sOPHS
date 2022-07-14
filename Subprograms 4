@@ -1,0 +1,20 @@
+def menu():
+    print("press 1 for creative")
+    print("press 1 for survival")
+    print("press 3 for hardcore")
+    print("press 4 for adventure")
+    print("press 5 to exit")
+    userinput = int(input("What would you like to do? "))
+    if userinput == 1:
+        print("Creative selected")
+    elif userinput == 2 :
+        print("Survival selected")
+    elif userinput == 3 :
+        print("Hardcore selected")
+    elif userinput == 4 :
+        print("Adventire selected")
+    elif userinput == 5 :
+        print("Exiting...")
+    else:
+        print("invalid choice...try again ")
+menu()
