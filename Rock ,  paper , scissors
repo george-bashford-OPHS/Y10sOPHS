@@ -1,0 +1,50 @@
+import random
+
+# define the valid moves
+moves = ['rock', 'paper', 'scissors']
+
+# define a function to get the player's move
+def get_player_move():
+    while True:
+        player_move = input("Enter your move (rock/paper/scissors): ")
+        if player_move in moves:
+            return player_move
+        else:
+            print("Invalid move. Please try again.")
+
+# define a function to get the computer's move
+def get_computer_move():
+    return random.choice(moves)
+
+# define a function to determine the winner
+def get_winner(player_move, computer_move):
+    if player_move == computer_move:
+        return "tie"
+    elif player_move == 'rock' and computer_move == 'scissors':
+        return "player"
+    elif player_move == 'paper' and computer_move == 'rock':
+        return "player"
+    elif player_move == 'scissors' and computer_move == 'paper':
+        return "player"
+    else:
+        return "computer"
+
+# main game loop
+while True:
+    player_move = get_player_move()
+    computer_move = get_computer_move()
+    winner = get_winner(player_move, computer_move)
+    
+    print(f"Player: {player_move}")
+    print(f"Computer: {computer_move}")
+    
+    if winner == "tie":
+        print("It's a tie!")
+    else:
+        print(f"{winner.capitalize()} wins!")
+    
+    play_again = input("Do you want to play again? (y/n): ")
+    if play_again.lower() != 'y':
+        break
+
+print("Thanks for playing!")
